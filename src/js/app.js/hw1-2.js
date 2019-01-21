@@ -1,10 +1,10 @@
 const formatEnding = (balans) => {
   if ((balans == 11) || (balans == 12) || (balans == 13) || (balans == 14)) {return 'ов';}
   else {
-let num = balans.toString().slice(-1);
-let ending;
+	let num = balans.toString().slice(-1);
+	let ending;
 
-if (num == '1') {return ' ';}
+	if (num == '1') {return ' ';}
 	else if ((num == '2') || (num == '3') || (num == '4')) {return 'a';}
 	else {return 'ов'};
   }
