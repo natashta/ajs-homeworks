@@ -10,6 +10,8 @@ if (num == '1') {return ' ';}
   }
 }
 const balans1 = 523;
+const balans2 = 6000;
+const balans3 = 5001;
 const output = `Ваш баланс: ${balans1} балл${formatEnding(balans1)}\n
 Ваш баланс: ${balans2} балл${formatEnding(balans2)}\n
 Ваш баланс: ${balans3} балл${formatEnding(balans3)}`;
