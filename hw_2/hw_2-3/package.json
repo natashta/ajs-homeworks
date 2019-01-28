@@ -4,7 +4,6 @@
   "description": "Homework - eslint ",
   "main": "app.js",
   "scripts": {
-    "start": "live-server src",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +17,9 @@
   "author": "natashta",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
   },
   "dependencies": {}
 }
