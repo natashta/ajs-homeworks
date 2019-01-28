@@ -1,0 +1,19 @@
+{
+  "name": "hw_eslint",
+  "version": "1.0.0",
+  "description": "Homework - eslint ",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natashta/ajs-homeworks/tree/master/hw_2/hw_2-3"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "natashta",
+  "license": "ISC"
+}
