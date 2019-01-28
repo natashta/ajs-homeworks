@@ -1,0 +1,24 @@
+{
+  "name": "babel_hw",
+  "version": "1.0.0",
+  "description": "Homework 2.2 - babel install",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natashta/ajs-homeworks/tree/master/hw_2/hw_2-2"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "natashta",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
