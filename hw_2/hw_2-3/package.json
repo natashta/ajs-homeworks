@@ -4,6 +4,7 @@
   "description": "Homework - eslint ",
   "main": "app.js",
   "scripts": {
+    "start": "live-server src",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
     "eslint"
   ],
   "author": "natashta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {}
 }
